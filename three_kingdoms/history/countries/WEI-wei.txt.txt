@@ -1,0 +1,144 @@
+capital = 607
+
+oob = "WEI_1939"
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	add_command_power = 100
+	set_stability = 0.5
+	set_war_support = 0.7
+}
+283 = { #China
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+287 = { 
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+597 = { #Shandong
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+598 = { #Jiansu
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+604 = { 
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+607 = { #Henan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+608 = { #Beijing
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+611 = { #China 10
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+614 = { #China 13
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+615 = { #Shanxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+616 = { #China 14
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+617 = { 
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+618 = { 
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+621 = { #China 18
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+622 = { #China 19
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+744 = { #Xian
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+755 = { #Haixi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+756 = { #Jiuquan
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+746 = { #Ordos
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+759 = { 
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+760 = { 
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+622 = { #Shaanxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+615 = { #Sanxi
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+597 = { #Shandong
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+614 = { #Hebei
+	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
+}
+
+recruit_character = WEI_cao_cao
+
+    set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48 
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Caocao"
+	desc = ""
+	picture = "Caocao.dds"
+	ideology = despotism
+	tratis = {
+	
+	}
+}
+		WEI_simay_yi={
+		name=WEI_sima_yi
+		portraits={
+			civilian={
+				large=GFX_portrait_WEI_simayi
+			}
+			army={
+				small=GFX_portrait_WEI_simayi
+			}
+		}
+		advisor={
+			name = "Simayi"
+			picture = "Simayi.dds"
+			slot = political_advisor
+			idea_token = wei_simayi 
+			allowed  = {
+				original_tag  = WEI
+			}
+			cost = 100
+			available  = {
+				has_political power = 100
+			}
+			traits  = {
+				communist_revolutionary 
+			}
+			do_effect  = {
+				NOT  = {
+					has_government  = communism 
+				}
+			}
+			ai_will_do  = {
+				factor  = 1.0
+			}
+		}
+	}

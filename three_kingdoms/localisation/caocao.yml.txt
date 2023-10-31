@@ -1,0 +1,2 @@
+I_english:
+ WEI_cao_cao:0 "조조"

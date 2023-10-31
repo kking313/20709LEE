@@ -1,0 +1,7 @@
+l_english:
+
+WEI:0 "위나라"
+
+WEI_politics:0 "위나라 정치 중점"
+
+WEI_politics_desc:0 "위나라의 정치 중점 입니다."
